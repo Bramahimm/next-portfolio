@@ -3,7 +3,7 @@
 ### This is a my portfolio build with Next.js, which include a hidden game within it.
 
 At the bottom of the page, you can find a brick with a letter Bramahimsa, you can move the ball use WASD keys, and Space to Jump.
-![Portfolio](##Ongoing)
+![Portfolio](http://portfoliobram.vercel.app/)
 
 ### To run this project locally, follow these steps:
 
