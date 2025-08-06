@@ -34,3 +34,6 @@ To run this project on your machine:
 5. Open your browser and go to `http://localhost:3000` to view the portfolio.
 
 ### Feel free to explore the code and customize it as you like. Don't forget to star the repo if you like it!
+
+
+### Gaskennnin gess
