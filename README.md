@@ -1,15 +1,21 @@
-## Portfolio
+## 🪐 Portfolio — Built with Next.js
 
-### This is a my portfolio build with Next.js, which include a hidden game within it.
+This is my personal portfolio built using **Next.js App Router**, featuring a unique visual identity and a hidden interactive game.
 
-At the bottom of the page, you can find a brick with a letter Bramahimsa, you can move the ball use WASD keys, and Space to Jump.
-![Portfolio](http://portfoliobram.vercel.app/)
+At the bottom of the page, you'll find a mysterious brick labeled **Bramahimsa**. You can move the ball using `W`, `A`, `S`, `D` keys and press `Space` to jump. It's a playful touch that reflects my creative philosophy.
 
-### To run this project locally, follow these steps:
+![Portfolio Screenshot](https://portfoliobram.vercel.app/)
+
+---
+
+### 🚀 Running Locally
+
+To run this project on your machine:
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Bramahimm/next-portfolio
+
    ```
 2. Navigate to the project directory:
    ```bash
