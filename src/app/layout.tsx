@@ -9,7 +9,11 @@ import "@/styles/globals.css";
 import { poppins, roboto_mono } from "@/constants/font";
 import { Contact, Navbar, Footer } from "@/components";
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   const pathname = usePathname();
 
   useEffect(() => {
