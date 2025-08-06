@@ -4,7 +4,8 @@ This is my personal portfolio built using **Next.js App Router**, featuring a un
 
 At the bottom of the page, you'll find a mysterious brick labeled **Bramahimsa**. You can move the ball using `W`, `A`, `S`, `D` keys and press `Space` to jump. It's a playful touch that reflects my creative philosophy.
 
-![Portfolio Screenshot](https://portfoliobram.vercel.app/)
+![Portfolio Screenshot](https://raw.githubusercontent.com/Bramahimm/next-portfolio/main/public/portfolio.png)
+
 
 ---
 
