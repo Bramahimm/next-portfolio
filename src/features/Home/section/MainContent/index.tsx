@@ -33,7 +33,7 @@ const MainContent: FC = () => {
           data-aos-duration="300"
         >
           Ideas flow best when the mind is loose. I build digital journeys while
-          grounded in nature, fueled by caffeine and smoke🚬 shaping interfaces
+          grounded in nature, fueled by caffeine🍵 and smoke🚬 shaping interfaces
           with soul
         </p>
       </div>
