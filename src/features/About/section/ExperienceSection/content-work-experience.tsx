@@ -1,13 +1,3 @@
-import bootstrapIcon from "@icons/bootstrap.svg";
-import tailwindIcon from "@icons/tailwind.svg";
-import reactIcon from "@icons/react.svg";
-import nextjsIcon from "@icons/nextjs.svg";
-import laravelIcon from "@icons/laravel.svg";
-import nodejsIcon from "@icons/nodejs.svg";
-import expressIcon from "@icons/express.svg";
-import mongodbIcon from "@icons/mongodb.svg";
-import Image from "next/image";
-
 export const ContentWorkExperience = () => {
   const datas = [
     {
