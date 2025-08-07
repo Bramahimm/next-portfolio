@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Analytics } from "@vercel/analytics/next"
 
 import "@/styles/globals.css";
 import { poppins, roboto_mono } from "@/constants/font";
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
     >
       <head />
       <body>
+        <Analytics/>
         {superadmin.includes(pathname) ? null : <Navbar />}
         {superadmin.includes(pathname) ? null : <Contact />}
         <main className={`${superadmin.includes(pathname) ? "" : "container"}`}>
