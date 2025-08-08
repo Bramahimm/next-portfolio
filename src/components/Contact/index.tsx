@@ -23,7 +23,7 @@ export default function Contact() {
     {
       name: "Telegram",
       icon: <TbBrandTelegram size={20} />,
-      link: "",
+      link: "https://t.me/bramahimm",
     },
     {
       name: "Linkedin",
