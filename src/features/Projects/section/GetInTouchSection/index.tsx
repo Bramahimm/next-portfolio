@@ -18,7 +18,7 @@ const GetInTouchSection: FC = () => {
       >
         I am currently seeking job opportunities to gain more experience in the
         industry. Whether you have any questions or simply want to say hi, I
-        will do my best to get back to you!
+        will do my best to get back to you!!
       </p>
       <button
         className="rounded-[4px] border-2 border-accent px-7 py-4 font-mono text-accent transition-all duration-300 hover:bg-accent hover:bg-opacity-10"
