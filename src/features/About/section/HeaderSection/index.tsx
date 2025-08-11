@@ -57,7 +57,7 @@ const HeaderSection: FC = () => {
         </div>
       </div>
       <div
-        className="-my-20 pl-0 md:-my-40 lg:-my-0 xl:pl-24"
+        className="py-11 -my-20 pl-0 md:-my-40 lg:-my-0 xl:pl-24"
         data-aos="zoom-in"
         data-aos-duration="300"
       >
