@@ -30,8 +30,9 @@ import formikIcon from "@icons/formik.png";
 
 // Project Images
 
-import comingsoon from "@images/comingsoon.webp"
-
+import comingsoon from "@images/comingsoon.webp";
+import gocJoki from "@images/gocJoki-blog.webp";
+import gocJokiGif from "@images/gocJokiGif.gif"
 const tools = {
   Git: { name: "Git", src: gitIcon, level: "Version control" },
   Github: { name: "Github", src: githubIcon, level: "Git hosting" },
@@ -72,17 +73,27 @@ const stacks = {
   MySQL: { name: "MySQL", src: mysqlIcon, level: "Intermediate" },
   MongoDB: { name: "MongoDB", src: mongodbIcon, level: "Beginer" },
 };
-const projects = Array.from({ length: 12 }, (_, i) => ({
-  id: i + 1,
-  name: "Coming Soon!",
-  desc: "This project is currently under development. Stay tuned for something exciting!",
-  image: comingsoon,
-  web: "",
-  repo: "",
-  stack: "HTML, CSS, JavaScript",
-  gif: "",
-}));
-
-
+const projects = [
+  ...Array.from({ length: 11 }, (_, i) => ({
+    id: i + 1,
+    name: "Coming Soon!",
+    desc: "This project is currently under development. Stay tuned for something exciting!",
+    image: comingsoon,
+    web: "",
+    repo: "",
+    stack: "HTML, CSS, JavaScript",
+    gif: "",
+  })),
+  {
+    id: 12,
+    name: "JokiGoC - Joki's Blog Template",
+    desc: "Website jasa joki tugas IT & Non-IT, pembuatan website, mobile apps, serta penjualan template siap pakai.",
+    image: gocJoki,
+    web: "https://goc-joki-blog.vercel.app",
+    repo: "https://github.com/Bramahimm/gocJoki-blog",
+    stack: "React ,Next.js, Tailwind CSS, TypeScript",
+    gif: gocJokiGif,
+  },
+];
 
 export { tools, stacks, projects };
