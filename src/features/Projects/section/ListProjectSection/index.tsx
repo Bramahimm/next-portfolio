@@ -35,7 +35,7 @@ const ListProject: FC = () => {
       <div className="my-10 grid grid-cols-1 gap-3 md:grid-cols-2 lg:gap-4 xl:grid-cols-3">
         {sortedData.slice(0, numToShow).map((data, index) => (
           <div
-            key={data.id}
+            key={data.id} 
             className="translate-y-0 cursor-pointer transition-all duration-300 hover:-translate-y-2"
           >
             <CardProject

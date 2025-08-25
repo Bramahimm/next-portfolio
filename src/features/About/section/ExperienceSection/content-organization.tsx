@@ -1,3 +1,6 @@
+import { url } from "inspector";
+import { title } from "process";
+
 export const ContentOrganization = () => {
   const datas = [
     {
@@ -41,6 +44,27 @@ export const ContentOrganization = () => {
             Collaborated with the KMK Faculty Coordinator to facilitate
             inter-faculty spiritual initiatives, assist in event logistics, and
             maintain alignment with Catholic values and organizational goals.
+          </li>
+        </>
+      ),
+    },
+
+    {
+      title: "Assistant Lecturer - Data Structures & Algorithms",
+      url: "https://ilkom.fmipa.unila.ac.id/beranda",
+      organization: "Ilmu Komputer Unila",
+      date: "Feb 2025 - Aug 2025",
+      description: (
+        <>
+          <li>
+            Led weekly lab sessions and coordinated assistant team efforts to
+            deliver structured, student-centered learning in the Data Structures
+            & Algorithms course at Universitas Lampung.
+          </li>
+          <li>
+            Co-developed modular teaching materials and adaptive explanations to
+            support diverse student levels, while strengthening clarity,
+            collaboration, and technical communication.
           </li>
         </>
       ),
