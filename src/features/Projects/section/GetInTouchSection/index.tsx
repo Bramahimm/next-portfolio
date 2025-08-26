@@ -4,7 +4,7 @@ const GetInTouchSection: FC = () => {
   return (
     <section className="my-60 flex flex-col items-center justify-center gap-3 text-center md:gap-5">
       <p className="font-mono text-accent" data-aos="fade-up">
-        What{`'`}s Next?
+        What's Next?
       </p>
       <h1
         className="pb-1 text-4xl font-semibold leading-relaxed text-secondary md:text-5xl"
