@@ -87,7 +87,7 @@ export const ContentWorkExperience = () => {
       title: "Assistant Lecturer - Object-Oriented Programming",
       url: "https://ilkom.fmipa.unila.ac.id/beranda",
       company: "Ilmu Komputer Unila",
-      date: "Sep 2024 - Jan 2025",
+      date: "Jul 2025 - Dec 2025",
       description: (
         <>
           <li>
@@ -110,7 +110,7 @@ export const ContentWorkExperience = () => {
       title: "Assistant Lecturer - Data Structures",
       url: "https://ilkom.fmipa.unila.ac.id/beranda",
       company: "Ilmu Komputer Unila",
-      date: "Feb 2024 - Jul 2024",
+      date: "Jul 2025 - Dec 2025",
       description: (
         <>
           <li>
