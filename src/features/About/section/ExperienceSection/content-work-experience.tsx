@@ -63,6 +63,71 @@ export const ContentWorkExperience = () => {
         </ul>
       ),
     },
+    {
+      title: "Assistant Lecturer - Data Structures & Algorithms",
+      url: "https://ilkom.fmipa.unila.ac.id/beranda",
+      company: "Ilmu Komputer Unila",
+      date: "Feb 2025 - Aug 2025",
+      description: (
+        <>
+          <li>
+            Led weekly lab sessions and coordinated assistant team efforts to
+            deliver structured, student-centered learning in the Data Structures
+            & Algorithms course at Universitas Lampung.
+          </li>
+          <li>
+            Co-developed modular teaching materials and adaptive explanations to
+            support diverse student levels, while strengthening clarity,
+            collaboration, and technical communication.
+          </li>
+        </>
+      ),
+    },
+    {
+      title: "Assistant Lecturer - Object-Oriented Programming",
+      url: "https://ilkom.fmipa.unila.ac.id/beranda",
+      company: "Ilmu Komputer Unila",
+      date: "Sep 2024 - Jan 2025",
+      description: (
+        <>
+          <li>
+            Assisted in teaching Object-Oriented Programming with Java, focusing
+            on object design, encapsulation, inheritance, and polymorphism.
+          </li>
+          <li>
+            Facilitated lab sessions and guided students through debugging,
+            refactoring, and applying OOP principles in real-world project
+            contexts.
+          </li>
+          <li>
+            Collaborated with lecturers to design assignments and evaluation
+            criteria that reinforce clean code and modular thinking.
+          </li>
+        </>
+      ),
+    },
+    {
+      title: "Assistant Lecturer - Data Structures",
+      url: "https://ilkom.fmipa.unila.ac.id/beranda",
+      company: "Ilmu Komputer Unila",
+      date: "Feb 2024 - Jul 2024",
+      description: (
+        <>
+          <li>
+            Led weekly lab sessions and guided students through practical
+            implementation of core data structures and algorithms using C++.
+          </li>
+          <li>
+            Coordinated a team of teaching assistants to ensure structured,
+            student-centered learning and consistency across lab sections.
+          </li>
+          <li>
+            Developed modular materials and adaptive explanations to accommodate
+            diverse learning levels and improve conceptual understanding.
+          </li>
+        </>
+      ),
+    },
   ];
 
   return (
@@ -85,7 +150,7 @@ export const ContentWorkExperience = () => {
             </span>
           </h3>
           <p className="pb-5 font-mono text-sm lg:text-base">{data.date}</p>
-          <ul className="list-disc list-inside flex flex-col gap-4 text-sm leading-relaxed lg:text-base">
+          <ul className="flex list-inside list-disc flex-col gap-4 text-sm leading-relaxed lg:text-base">
             {data.description.props.children}
           </ul>
         </div>
@@ -93,4 +158,3 @@ export const ContentWorkExperience = () => {
     </div>
   );
 };
-

@@ -11,47 +11,47 @@ export const ContentCertification = () => {
       certificate: [
         {
           name: "Front-End Web Developer Expert",
-          link: "https://www.dicoding.com/certificates/RVZKOMWKQPD5",
+          link: "",
         },
         {
           name: "Intermediate Front-End Web Tools",
-          link: "https://www.dicoding.com/certificates/NVP7ONEYRPR0",
+          link: "",
         },
         {
           name: "Fundamental Web Applications with React",
-          link: "https://www.dicoding.com/certificates/0LZ0GGLJ0X65",
+          link: "",
         },
         {
           name: "Fundamental Front-End Web Development",
-          link: "https://www.dicoding.com/certificates/MEPJVR344P3V",
+          link: "",
         },
         {
           name: "Create Front-End Web for Beginners",
-          link: "https://www.dicoding.com/certificates/2VX3Y55DNPYQ",
+          link: "",
         },
         {
           name: "Build Back-End Applications for Beginners",
-          link: "https://www.dicoding.com/certificates/72ZD93V26PYW",
+          link: "",
         },
         {
           name: "Basics of Web Programming",
-          link: "https://www.dicoding.com/certificates/QLZ9KGKJ9Z5D",
+          link: "",
         },
         {
           name: "Basics of JavaScript Programming",
-          link: "https://www.dicoding.com/certificates/2VX31QV23ZYQ",
+          link: "",
         },
         {
           name: "Computer Networking for Beginners",
-          link: "https://www.dicoding.com/certificates/EYX49QGVRPDL",
+          link: "",
         },
         {
           name: "Basics of DevOps",
-          link: "https://www.dicoding.com/certificates/QLZ926312X5D",
+          link: "",
         },
         {
           name: "Cloud Practitioner Essentials (Learning AWS Cloud Basics)",
-          link: "https://www.dicoding.com/certificates/ERZR0817QXYV",
+          link: "",
         },
       ],
     },
@@ -62,19 +62,19 @@ export const ContentCertification = () => {
       certificate: [
         {
           name: "React",
-          link: "https://drive.google.com/file/d/1b80zFNL9-Cc5jSKa2Hpkc_6l_NwsvOoP/view?usp=sharing",
+          link: "",
         },
         {
           name: "NodeJS",
-          link: "https://drive.google.com/file/d/1GydrUfjuYXyKf4PPa9xOfDS9Ag4RN03C/view?usp=sharing",
+          link: "",
         },
         {
           name: "Javascript",
-          link: "https://drive.google.com/file/d/1eVteeFTAeOZdjySVwk32LbsbipnBvCrd/view?usp=sharing",
+          link: "",
         },
         {
           name: "HTML & CSS",
-          link: "https://drive.google.com/file/d/1fZB2CwZ1c7UL_clMIuSp3W98NAavhBnJ/view?usp=sharing",
+          link: "",
         },
       ],
     },
@@ -85,22 +85,22 @@ export const ContentCertification = () => {
       certificate: [
         {
           name: "Junior Web Developer",
-          link: "https://www.linkedin.com/feed/update/urn:li:activity:7005734510378041344/",
+          link: "",
         },
       ],
     },
     {
       type: "Course",
       name: "Sololearn",
-      link: "https://www.sololearn.com",
+      link: "",
       certificate: [
         {
           name: "HTML ",
-          link: "https://www.sololearn.com/certificates/CT-DJAJTAPO",
+          link: "",
         },
         {
           name: "Javascript ",
-          link: "https://www.sololearn.com/certificates/CT-VQKUFX6T",
+          link: "",
         },
       ],
     },
