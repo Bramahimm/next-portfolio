@@ -20,7 +20,6 @@ export default function CardProject(props) {
   const handleMouseLeave = () => {
     setHover(false);
   };
-
   return (
     <div className="w-[330px] bg-accent/10 px-7 py-5 text-secondary transition-all hover:text-accent lg:w-[350px]">
       <div className="flex items-center justify-between">

@@ -32,7 +32,10 @@ import formikIcon from "@icons/formik.png";
 
 import comingsoon from "@images/comingsoon.webp";
 import gocJoki from "@images/gocJoki-blog.webp";
-import gocJokiGif from "@images/gocJokiGif.gif"
+import gocJokiGif from "@images/gocJokiGif.gif";
+import techPointGif from "@images/techPoint.gif";
+import TechPoint from "@images/TechPoint.webp";
+
 const tools = {
   Git: { name: "Git", src: gitIcon, level: "Version control" },
   Github: { name: "Github", src: githubIcon, level: "Git hosting" },
@@ -89,10 +92,20 @@ const projects = [
     name: "JokiGoC - Joki's Blog Template",
     desc: "Website jasa joki tugas IT & Non-IT, pembuatan website, mobile apps, serta penjualan template siap pakai.",
     image: gocJoki,
-    web: "https://goc-joki-blog.vercel.app",
+    web: "/under-develop-project",
     repo: "https://github.com/Bramahimm/gocJoki-blog",
     stack: "React ,Next.js, Tailwind CSS, TypeScript",
     gif: gocJokiGif,
+  },
+  {
+    id: 11,
+    name: "TechPoint - Mini E-Commerce Website",
+    desc: "TechPoint adalah platform e-commerce modern yang berfokus pada penjualan produk teknologi. Proyek ini dibangun dengan arsitektur Monorepo yang memisahkan Back-end (API) dan Front-end (UI/UX) untuk memastikan skalabilitas dan kinerja yang optimal.",
+    image: TechPoint,
+    web: "/under-develop-project",
+    repo: "https://github.com/Bramahimm/TechPoint",
+    stack: "React, Laravel, Tailwind CSS, TypeScript, Postgresql",
+    gif: techPointGif,
   },
 ];
 
