@@ -36,6 +36,39 @@ export const ContentWorkExperience = () => {
       ),
     },
     {
+      title: "Graphic Designer (Remote) - Creative Design Division",
+      url: "https://www.linkedin.com/company/teman-ambiss",
+      company: "TemanAmbiss",
+      date: "Feb 2025 - Aug 2025",
+      description: (
+        <ul>
+          <li>
+            Designed and produced visual content for social media platforms,
+            including Instagram feeds, stories, and promotional posters, aligned
+            with TemanAmbiss brand identity.
+          </li>
+          <li>
+            Collaborated remotely with the creative and content teams to
+            translate campaign concepts into engaging and visually consistent
+            designs.
+          </li>
+          <li>
+            Developed creative layouts, typography, and color schemes to enhance
+            audience engagement and brand recognition.
+          </li>
+          <li>
+            Utilized design tools such as Figma, Adobe Illustrator, and Canva to
+            deliver high-quality assets within deadlines.
+          </li>
+          <li>
+            Iterated designs based on feedback and performance insights to
+            improve visual effectiveness across digital campaigns.
+          </li>
+        </ul>
+      ),
+    },
+
+    {
       title: "Part-Time Transportation Partner – Maxim",
       url: "https://www.instagram.com/maxim_indo/",
       company: "Maxim Indonesia",

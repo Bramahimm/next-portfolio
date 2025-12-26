@@ -35,6 +35,8 @@ import gocJoki from "@images/gocJoki-blog.webp";
 import gocJokiGif from "@images/gocJokiGif.gif";
 import techPointGif from "@images/techPoint.gif";
 import TechPoint from "@images/TechPoint.webp";
+import HEOC from "@images/HEOC.webp";
+import HeocGif from "@images/heoc.gif";
 
 const tools = {
   Git: { name: "Git", src: gitIcon, level: "Version control" },
@@ -77,7 +79,7 @@ const stacks = {
   MongoDB: { name: "MongoDB", src: mongodbIcon, level: "Beginer" },
 };
 const projects = [
-  ...Array.from({ length: 11 }, (_, i) => ({
+  ...Array.from({ length: 10 }, (_, i) => ({
     id: i + 1,
     name: "Coming Soon!",
     desc: "This project is currently under development. Stay tuned for something exciting!",
@@ -90,7 +92,7 @@ const projects = [
   {
     id: 12,
     name: "JokiGoC - Joki's Blog Template",
-    desc: "Website jasa joki tugas IT & Non-IT, pembuatan website, mobile apps, serta penjualan template siap pakai.",
+    desc: "JokiGoC is a versatile digital service and commercial template platform designed for IT and creative service providers. The project functions as both a service-oriented business portal and a marketplace for ready-to-use website and mobile application templates. Built with a focus on modern aesthetics and clean code, it offers a professional interface for managing client inquiries and digital product sales.",
     image: gocJoki,
     web: "/under-develop-project",
     repo: "https://github.com/Bramahimm/gocJoki-blog",
@@ -100,12 +102,22 @@ const projects = [
   {
     id: 11,
     name: "TechPoint - Mini E-Commerce Website",
-    desc: "TechPoint adalah platform e-commerce modern yang berfokus pada penjualan produk teknologi. Proyek ini dibangun dengan arsitektur Monorepo yang memisahkan Back-end (API) dan Front-end (UI/UX) untuk memastikan skalabilitas dan kinerja yang optimal.",
+    desc: "TechPoint is a modern e-commerce solution focused on the technology retail sector, engineered using a high-performance Monorepo architecture. By decoupling the Back-end (API) from the Front-end (UI/UX), the project ensures superior scalability, optimized load speeds, and a seamless user experience. The platform features a robust product management system and a responsive interface tailored for high-conversion digital commerce.",
     image: TechPoint,
     web: "/under-develop-project",
     repo: "https://github.com/Bramahimm/TechPoint",
     stack: "React, Laravel, Tailwind CSS, TypeScript, Postgresql",
     gif: techPointGif,
+  },
+  {
+    id: 10,
+    name: "Heoc - Health Emergency Operation Center",
+    desc: "HEOC is a mission-critical crisis management platform specifically engineered to streamline health coordination and logistics in response to the current natural disaster crisis in Aceh. This system serves as a tactical command center that integrates real-time disease surveillance data to monitor trends at evacuation sites, alongside volunteer performance tracking and medical logistics distribution. Developed to ensure data-driven decision-making in high-pressure environments, HEOC facilitates a rapid response by mapping urgent medical needs at field outposts and ensuring transparent, accountable aid delivery across the most affected regions in Aceh.",
+    image: HEOC,
+    web: "https://www.heoc-aceh.id/",
+    repo: "https://github.com/Putraa70/HEOC-ATAM",
+    stack: "Laravel, JavaSciript, Tailwind CSS, MySql",
+    gif: HeocGif,
   },
 ];
 
