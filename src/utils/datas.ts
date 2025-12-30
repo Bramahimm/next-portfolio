@@ -37,6 +37,8 @@ import techPointGif from "@images/techPoint.gif";
 import TechPoint from "@images/TechPoint.webp";
 import HEOC from "@images/HEOC.webp";
 import HeocGif from "@images/heoc.gif";
+import Karnexa from "@images/karnexa-project.webp";
+import KarnexaGif from "@images/karnexa.gif";
 
 const tools = {
   Git: { name: "Git", src: gitIcon, level: "Version control" },
@@ -77,31 +79,34 @@ const stacks = {
   Tailwind: { name: "TailwindCSS", src: tailwindIcon, level: "Advanced" },
   MySQL: { name: "MySQL", src: mysqlIcon, level: "Intermediate" },
   MongoDB: { name: "MongoDB", src: mongodbIcon, level: "Beginer" },
+  Node: { name: "NodeJS", src: nodejsIcon, level: "Development Environtment" },
+
 };
 const projects = [
-  ...Array.from({ length: 10 }, (_, i) => ({
+  ...Array.from({ length: 9 }, (_, i) => ({
     id: i + 1,
     name: "Coming Soon!",
     desc: "This project is currently under development. Stay tuned for something exciting!",
     image: comingsoon,
-    web: "",
+    web: "/under-develop-project",
     repo: "",
     stack: "HTML, CSS, JavaScript",
     gif: "",
   })),
   {
     id: 12,
-    name: "JokiGoC - Joki's Blog Template",
-    desc: "JokiGoC is a versatile digital service and commercial template platform designed for IT and creative service providers. The project functions as both a service-oriented business portal and a marketplace for ready-to-use website and mobile application templates. Built with a focus on modern aesthetics and clean code, it offers a professional interface for managing client inquiries and digital product sales.",
-    image: gocJoki,
-    web: "/under-develop-project",
-    repo: "https://github.com/Bramahimm/gocJoki-blog",
-    stack: "React ,Next.js, Tailwind CSS, TypeScript",
-    gif: gocJokiGif,
+    name: "KARNEXA – Interactive Portfolio & Creative Studio Platform",
+    desc: "KARNEXA is a high-fidelity interactive portfolio platform engineered to showcase advanced frontend craftsmanship and motion-driven user experience. The project emphasizes tactile UI interactions through custom cursor systems, magnetic components, and smooth GSAP–Framer Motion orchestration, while maintaining performance integrity alongside Three.js scenes. Designed as a premium digital presence, KARNEXA represents a fusion of engineering precision and visual storytelling for modern web-based creative studios.",
+    image: Karnexa,
+    web: "https://karnexa.vercel.app/",
+    repo: "https://github.com/Bramahimm/Karnexa",
+    stack:
+      "Next.js, TypeScript, Tailwind CSS v4, Framer Motion, GSAP, Three.js (R3F)",
+    gif: KarnexaGif,
   },
   {
     id: 11,
-    name: "TechPoint - Mini E-Commerce Website",
+    name: "TechPoint - Mini ECommerce Business Website",
     desc: "TechPoint is a modern e-commerce solution focused on the technology retail sector, engineered using a high-performance Monorepo architecture. By decoupling the Back-end (API) from the Front-end (UI/UX), the project ensures superior scalability, optimized load speeds, and a seamless user experience. The platform features a robust product management system and a responsive interface tailored for high-conversion digital commerce.",
     image: TechPoint,
     web: "/under-develop-project",
@@ -118,6 +123,16 @@ const projects = [
     repo: "https://github.com/Putraa70/HEOC-ATAM",
     stack: "Laravel, JavaSciript, Tailwind CSS, MySql",
     gif: HeocGif,
+  },
+  {
+    id: 9,
+    name: "JokiGoC - Joki's Blog Template",
+    desc: "JokiGoC is a versatile digital service and commercial template platform designed for IT and creative service providers. The project functions as both a service-oriented business portal and a marketplace for ready-to-use website and mobile application templates. Built with a focus on modern aesthetics and clean code, it offers a professional interface for managing client inquiries and digital product sales.",
+    image: gocJoki,
+    web: "/under-develop-project",
+    repo: "https://github.com/Bramahimm/gocJoki-blog",
+    stack: "React ,Next.js, Tailwind CSS, TypeScript",
+    gif: gocJokiGif,
   },
 ];
 
