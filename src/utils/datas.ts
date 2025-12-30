@@ -38,7 +38,7 @@ import TechPoint from "@images/TechPoint.webp";
 import HEOC from "@images/HEOC.webp";
 import HeocGif from "@images/heoc.gif";
 import Karnexa from "@images/karnexa-project.webp";
-import KarnexaGif from "@images/karnexa.gif";
+import karnexagif from "@images/Karnexa.gif";
 
 const tools = {
   Git: { name: "Git", src: gitIcon, level: "Version control" },
@@ -102,7 +102,7 @@ const projects = [
     repo: "https://github.com/Bramahimm/Karnexa",
     stack:
       "Next.js, TypeScript, Tailwind CSS v4, Framer Motion, GSAP, Three.js (R3F)",
-    gif: KarnexaGif,
+    gif: karnexagif,
   },
   {
     id: 11,
