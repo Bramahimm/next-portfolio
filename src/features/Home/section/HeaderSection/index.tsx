@@ -19,7 +19,7 @@ const HeaderSection: FC = () => {
         className="pb-4 text-4xl font-semibold text-primary md:pb-8 md:text-5xl lg:text-6xl"
         data-aos="fade-up"
       >
-        I'm a Website Developer.
+        I'm a WebApp Developer.
       </h1>
       <p
         className="w-full text-sm leading-relaxed text-primary md:w-[540px] md:text-base"
